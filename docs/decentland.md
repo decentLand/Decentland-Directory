@@ -10,7 +10,7 @@ Most importantly, it enables users to have full control over their data with no 
 Therefore <i><b>decent land</i></b> reffers to the hope of creating a decent monetized social network.
 
 <h1>Inspirations</h1>
-decent land is hybrid of several ideas combined into one merger protocol:
+decent land is hybrid of several ideas and protocols combined into one merger protocol:
 
 <h2>reddit:</h2>
 Reddit is a community-determined aggregator of content. It is a social platform where users submit posts that other users 'upvote' or 'downvote' based on if they like it.
@@ -73,35 +73,37 @@ decent land will try to fix
 
 <h1>decent land protocol structure</h1>
 
-According the the pros and cons mentioned above, decent land will be a "better" hybrid built totally onchain.
+According the the pros and cons mentioned above, decent land will be a "better" hybrid built ***totally on-chain***.
 
 <h2>1- Protocol: App-Name</h2>
 
 in intention to create a hierarchical `tags` based protocol, a global tag will be used to identify decentland-related transactions from the network.
 
-> ` "App-Name", "decent.land" `
+> tag: ` "App-Name", "decent.land" `
 
 Also protocol's version will be recorded in another tag. It will follow SamVer versioning
 
-> `"version", "0.0.1"`
+> tag: `"version", "0.0.1"`
 
 
 <h2>2- Community: Tribus</h2>
 
-communities created over decent land will have a standard hardcoded tag-key defined as `tribus-ID` with a tag-value evaluates to the tribus transaction ID
+communities created over decent land will have a standard hardcoded tag-key defined as `tribus-id` with a tag-value evaluates to the tribus transaction ID
 
-- example: ` "tribus", "l-VX...YRLn" `
+- example: ` "tribus-id", "sew_MAXZIgmyEPzzOTkdAca7SQCL9XTCMfxY3KOE5-M" `
 
-Another key-value with a human readable value related tribus tag will be created ; ` "tribus", "meme-stan" `
+The tribus-id value represents the Community.XYZ profit sharing community creation's transaction ID.
 
-And if you want to compare it to Reddit, each ` "tribus", "tribus-name" ` key-value pair tag is equivalent to a ` /r/communityName `on Reddit.
+An another key-value pair with a human readable value related tribus tag will be created : ` "tribus-name", "decent-land" `
+
+And if you want to compare it to Reddit, each ` "tribus-name", value ` key-value pair tag is equivalent to a ` /r/communityName `on Reddit.
 
 
 <b>Tribus Ownership Economy</b>
 
-Before creating a tribus (community), the creator define a minimum held amount of W3G token (temporar symbol in the time of writing) by the user to be eligible to post in that community (being a member); regardless of who's the user, his content, or what he's going to post, there is no way to restrict his right to publish in that tribus other than min. held PST token. 
+Before creating a tribus (community), the creator define a minimum held amount of $DLT token by the user to be eligible to post in that community (being a member); regardless of who's the user, his content, or what he's going to post, there is no way to restrict his right to publish in that tribus other than min. held PST token. 
 
-Each tribus will represent a <a href="https://community.xyz">CommunityXYZ</a> community. Therefore, beside W3G token, each tribus will have its own token that can be used to tip and reward their own members.
+Each tribus will represent a <a href="https://community.xyz">CommunityXYZ</a> community. Therefore, beside DLT token, each tribus will have its own token that can be used to tip and reward their own members.
 
 
  **Tribus membership is tradable: *buy to join , sell to leave* **
@@ -111,7 +113,7 @@ Each tribus will represent a <a href="https://community.xyz">CommunityXYZ</a> co
  
  Tribus structure will be similar to Merkle Patricia Trie or "Merkle Root" in Ethereum blockchain.
  
-keywoards:
+keywords:
 
 - Entry trie: Tribus
 - sub-node: post in a Tribus
