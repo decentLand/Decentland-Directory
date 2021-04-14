@@ -1,5 +1,5 @@
 # docs
-community driven social platform built on <a href="https://arweave.org">Arweave Blockchain</a>
+a social network protocol built on <a href="https://arweave.org">Arweave Blockchain (Permaweb)</a>
 
 <h1>Motivation</h1>
 Tech giants are removing more content, community managers ban users, reports, geo-location restrictions, and more censorship activities limit the end-user from enjoying a free speach social experiment.
@@ -8,9 +8,7 @@ Tech giants are removing more content, community managers ban users, reports, ge
 We use <a href="https://semver.org/">SemVer</a> for versioning. For the versions available, see the tags on the repository (when available)
 
 <h1>Authors</h1>
-- Pepe007 <i>documenting and initial developments</i> <> <a href="https://github.com/charmful0x">charmful0x</a> <br>
-
-See also the list of <a href="https://github.com/decentland/contributors">contributors</a> who participated in this project.
+- Darwin <i>documenting and initial developments</i> :<a href="https://github.com/charmful0x">charmful0x</a> <br>
   
 <h1>License</h1>
 This project is licensed under the <b>MIT License</b>.
