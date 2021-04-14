@@ -10,7 +10,7 @@ We use <a href="https://semver.org/">SemVer</a> for versioning. For the versions
 <h1>Authors</h1>
 - Pepe007 <i>documenting and initial developments</i> <> <a href="https://github.com/charmful0x">charmful0x</a> <br>
 
-See also the list of <a href="https://github.com/w3gram/contributors">contributors</a> who participated in this project.
+See also the list of <a href="https://github.com/decentland/contributors">contributors</a> who participated in this project.
   
 <h1>License</h1>
 This project is licensed under the <b>MIT License</b>.
