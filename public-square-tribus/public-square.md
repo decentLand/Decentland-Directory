@@ -50,8 +50,8 @@ A valid post's transaction must have the following tags:
 
 # Useful links
 
-**signup:** https://arweave.net/UBul0QyGMKtJZ0PFBZRSO_M7CEBm7e9eWh-MJClG7go
+**signup:** https://decent.land/signup
 
-**posting instance:** https://arweave.net/olZcZJ_FyaEvPYGnQs8Yh6D72CAidrDVHB4WhOLIInc
+**posting instance:** https://decetn.land/post
 
-**public-square-tribus homepage:** https://arweave.net/H5reVbYbDh7KbrnJTOW-yFTb9UzmEK0dupGFfeYOedk
+**public-square-tribus homepage:** https://decent.land/v2/t
