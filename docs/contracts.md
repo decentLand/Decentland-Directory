@@ -37,4 +37,15 @@ The scarcity of username is proportional inversely to its length.
 
 <h2>Switching</h2>
 
-The user can hold as much as he wants (under the protocol rules) different type of tokens in his wallet. However, he/she has to choose a `currentUsername` or the displaying username. So when a user wants to update his username, he has to "switch" from his available tokens 
+The user can hold as much as he wants (under the protocol rules) different type of tokens in his wallet. However, he/she has to choose a `currentUsername` or the displaying username. So when a user wants to update his username, he has to "switch" from his available tokens.
+
+# DIPD
+DAOs Improvement Proposals Discussion documentation is available on https://github.com/decentLand/DIPD#readme
+
+# Profile Actions
+ProfileActions SW contract holds the functionality to do the profile's action provided in the most of social networks. 
+
+The contract provides: follow, unfollow, block, unblock, and Friendzone. Most of the listed actions are known for their use-case, but `Friendzone` is decentland developed and one of its key features
+
+<h2>Friendzone</h2>
+When two users are following each others, they will be considered "frienzoned" when each user, A and B, and the other to his/her `Friendzone`. Therefore, when both users are frienzoned, they will be incentivized, each, by the others likes fees. (e.g. when user C likes user A post, the user B will get a % from the fees sent to user A -- and vice-versa)
