@@ -73,41 +73,7 @@ decent land will try to fix
 
 <h1>decent land protocol structure</h1>
 
-According the the pros and cons mentioned above, decent land will be a "better" hybrid built ***totally on-chain***.
-
-<h2>1- Protocol: App-Name</h2>
-
-in intention to create a hierarchical `tags` based protocol, a global tag will be used to identify decentland-related transactions from the network.
-
-> tag: ` "App-Name", "decent.land" `
-
-Also protocol's version will be recorded in another tag. It will follow SamVer versioning
-
-> tag: `"version", "0.0.1"`
-
-
-<h2>2- Community: Tribus</h2>
-
-communities created over decent land will have a standard hardcoded tag-key defined as `tribus-id` with a tag-value evaluates to the tribus transaction ID
-
-- example: ` "tribus-id", "sew_MAXZIgmyEPzzOTkdAca7SQCL9XTCMfxY3KOE5-M" `
-
-The tribus-id value represents the Community.XYZ profit sharing community creation's transaction ID.
-
-An another key-value pair with a human readable value related tribus tag will be created : ` "tribus-name", "decent-land" `
-
-And if you want to compare it to Reddit, each ` "tribus-name", value ` key-value pair tag is equivalent to a ` /r/communityName `on Reddit.
-
-
-<b>Tribus Ownership Economy</b>
-
-Before creating a tribus (community), the creator define a minimum held amount of $DLT token by the user to be eligible to post in that community (being a member); regardless of who's the user, his content, or what he's going to post, there is no way to restrict his right to publish in that tribus other than min. held PST token. 
-
-Each tribus will represent a <a href="https://community.xyz">CommunityXYZ</a> community. Therefore, beside DLT token, each tribus will have its own token that can be used to tip and reward their own members.
-
-
- **Tribus membership is tradable: *buy to join , sell to leave* **
- 
+According the the pros and cons mentioned above, decent land will be a "better" hybrid built ***totally on-chain*** 
  
  <b>Tribus Structure</b>
  
@@ -120,29 +86,6 @@ keywords:
 - reply: post's reply(ies)
  
  
-<h2>3- Registration </h2>
-user register (signup) by sending a transaction to the network with specefic tags using his own wallet.
-
-**Limitations:**
-
-- 1 account per wallet
-- username: from 4 to 30 characters
-- bio: 0-75 characters
-- whitespaces are automatically replaced by a dash "-" if found in the username
-- usernames are not unique per account (can be duplicated)
-
-***usernames aren't unique. Although, wallet's public address is used to identify account uniqueness (userID = wallet's address).
-Usernames act as "Name" and can be updated anytime as same as bio***
-
-**Tags used to be considered as valid user (at registration):**
-
-- `"App-Name", "decent.land"`
-- `"username", ${username}`
-- `"version", "0.0.1"`
-- `"action", "signup"`
-- `"Content-Type", "application/json"`
-- `"user-id", ${pub_key}`
-- `"unix-epoch", ${userObject["registration_unix_epoch"]}` -- automatically insered by the script
 
 
 
